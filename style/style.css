@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Centuary Gothic ;
+}
+
+header{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../background.jpeg);
+	
+	height: 100vh;
+	background-size: contain;
+	background-position: center ;
+	border-width:100px ;
+
+
+}
+ul{
+	list list-style-type: none;
+	float: right;
+	margin-top: -100px;
+	margin-right: 15px;
+    
+
+}
+
+ul li{
+	display: inline-block;
+
+}
+
+ul li a{
+	text-decoration: none;
+
+	color: white;
+	padding:5px 20px ;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+	background-color: white;
+	color: blue;
+
+}
+
+ul li.active a{
+	background-color: white;
+	color: blue;
+
+}
+
+.logo img{
+	width: 150px;
+    height: 150px;
+    
+    margin: 6px;
+    border-radius: 10%;
+
+}
+
+.gamingbutton{
+	position: absolute;
+	top: 60%;
+	left: 30%;
+
+}
+
+.musicbutton{
+	position: absolute;
+	top: 57%;
+	left: 60%;
+	padding: 25px 25px;
+	
+	
+}
+
+.btn{
+	color: whitesmoke;
+	padding: 25px 25px;
+	
+}
+
+.title{
+	position: absolute;
+	top: 9%;
+	left: 200px;
+	
+}
+
+.title h1{
+	font-family: Courier New;
+	font-size: 150%;
+	color: skyblue;
+}
