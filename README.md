@@ -1,2 +1,2 @@
-# MGthe new gaming era
+# MG the new gaming era
  
